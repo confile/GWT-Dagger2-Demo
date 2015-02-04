@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='gwtt'>
+  <inherits name='com.google.gwt.user.User'/>
+
+  <inherits name='test.Dagger'/>                          
+
+  <entry-point class='test.client.GWTT'/>
+
+  <source path='client'/>
+  <source path='shared'/>
+
+  <add-linker name="xsiframe"/>
+</module>
